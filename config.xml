@@ -32,12 +32,16 @@
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" spec="4.0.0" />
     <gap:plugin name="cordova-plugin-actionsheet" source="npm" spec="2.3.1" />
     <gap:plugin source="git" spec="https://github.com/litehelpers/Cordova-sqlite-evcore-extbuild-free.git" />
-	<gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" />
 
     <platform name="ios">
         <gap:plugin name="ionic-plugin-keyboard" source="npm" spec="2.2.1" />
     </platform>
 
+    <platform name="android">
+	<gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" />
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+		<preference name="xwalkMultipleApk" value="true" /> 
+    </platform>
 
 	<plugin name="phonegap-plugin-push" source="npm" spec="1.8.4"><param name="SENDER_ID" value="" /></plugin>
 	<!--admob-DONOTREMOVE-->
