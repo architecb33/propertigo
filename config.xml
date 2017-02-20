@@ -2,8 +2,8 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.propertigo.app" version="1.0.0">
    <name>Properti Go</name>
-   <description>App for Real Estate Brand</description>
-   <author href="" email="gravigodesign@gmail.com">Abednego</author>
+   <description>App for Real Estate Brand.</description>
+   <author href="gravigodesign.com" email="gravigodesign@gmail.com">Abednego</author>
 
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
@@ -38,21 +38,14 @@
     </platform>
 
     <platform name="android">
-	<gap:plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git" source="git" />
-	<gap:plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
-	</platform>
+    	<gap:plugin name="cordova-plugin-crosswalk-webview" source="npm" version="2.2.0" />
+    </platform>
 
 	<plugin name="phonegap-plugin-push" source="npm" spec="1.8.4"><param name="SENDER_ID" value="" /></plugin>
 	<!--admob-DONOTREMOVE-->
     <!--FACEBOOK-DONOTREMOVE-->
 	
-	<preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine" /> 
-    <preference name="xwalkMultipleApk" value="true" /> 
-	<preference name="xwalkCommandLine" value="--ignore-gpu-blacklist" />
-	<preference name="xwalkVersion" value="org.xwalk:xwalk_core_library:14+" />
-	<preference name="xwalkVersion" value="xwalk_core_library:14+" />
-	<preference name="xwalkVersion" value="14+" />
-	<preference name="xwalkVersion" value="14" />
+
 	<preference name="AutoHideSplashScreen" value="false" />
 	<preference name="SplashScreenDelay" value="7000" />
 	<preference name="keyboardDisplayRequiresUserAction" value="false" />
