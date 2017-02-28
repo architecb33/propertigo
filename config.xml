@@ -3,7 +3,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.propertigo.app" version="1.0.0">
    <name>Properti Go</name>
    <description>App for Real Estate Brand.</description>
-   <author href="gravigodesign.com" email="gravigodesign@gmail.com">Abednego</author>
+   <author href="gravigodesign.com" email="gravigodesign@gmail.com">Yanuar</author>
 
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
@@ -44,10 +44,10 @@
 	<plugin name="phonegap-plugin-push" source="npm" spec="1.8.4"><param name="SENDER_ID" value="" /></plugin>
 	<!--admob-DONOTREMOVE-->
     <!--FACEBOOK-DONOTREMOVE-->
-	
+	<preference name="EnableViewportScale" value="true"/>
 
 	<preference name="AutoHideSplashScreen" value="false" />
-	<preference name="SplashScreenDelay" value="7000" />
+	<preference name="SplashScreenDelay" value="3000" />
 	<preference name="keyboardDisplayRequiresUserAction" value="false" />
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	<preference name="DisallowOverscroll" value="true" />
