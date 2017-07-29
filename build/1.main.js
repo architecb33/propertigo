@@ -7,10 +7,10 @@ webpackJsonp([1],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_dynamic_component_index__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_dynamic_component_index__ = __webpack_require__(387);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_dynamic_component_index___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_dynamic_component_index__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__custom_page__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__custom_page__ = __webpack_require__(375);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomPageModule", function() { return CustomPageModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -59,8 +59,8 @@ CustomPageModule = __decorate([
 var core_1 = __webpack_require__(0);
 var common_1 = __webpack_require__(44);
 var http_1 = __webpack_require__(14);
-var index_1 = __webpack_require__(639);
-var Utils_1 = __webpack_require__(384);
+var index_1 = __webpack_require__(641);
+var Utils_1 = __webpack_require__(386);
 var DYNAMIC_SELECTOR = 'DynamicComponent';
 var DynamicComponentMetadata = (function () {
     function DynamicComponentMetadata(selector, template) {
@@ -273,13 +273,13 @@ exports.PropertyAnnotationFactory = PropertyAnnotationFactory;
 
 /***/ }),
 
-/***/ 373:
+/***/ 375:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_header_logo_header_logo__ = __webpack_require__(236);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CustomPage; });
@@ -511,7 +511,7 @@ CustomPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])({
         priority: 'high'
     }),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/scottopolis/Graphic Art/git tower/ap3/src/pages/custom-pages/custom-page.html"*/'<ion-header>\n\n  <ion-navbar>\n\n	<ion-buttons start>\n		<button *ngIf="rtlBack" (click)="backRtlTransition()" ion-button class="custom-back-button">\n			<ion-icon name="arrow-back"></ion-icon>\n			{{\'Back\' | translate }}\n		</button>\n		<button ion-button menuToggle>\n			<ion-icon name="menu"></ion-icon>\n		</button>\n\n	</ion-buttons>\n\n	<img class="header-logo" *ngIf="show_header_logo" [src]="header_logo_url" />\n\n    <ion-title *ngIf="!show_header_logo">{{pagetitle | translate}}</ion-title>\n\n  </ion-navbar>\n</ion-header>\n\n<ion-content [ngClass]="customClasses">\n\n<DynamicComponent \n    [componentTemplateUrl]="templateUrl" \n    [componentModules]="extraModules"\n    [componentInputData]="inputData"></DynamicComponent>\n\n</ion-content>\n'/*ion-inline-end:"/Users/scottopolis/Graphic Art/git tower/ap3/src/pages/custom-pages/custom-page.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/macintosh/Documents/devapp/PropertiGO/src/pages/custom-pages/custom-page.html"*/'<ion-header>\n\n  <ion-navbar>\n\n	<ion-buttons start>\n		<button *ngIf="rtlBack" (click)="backRtlTransition()" ion-button class="custom-back-button">\n			<ion-icon name="arrow-back"></ion-icon>\n			{{\'Back\' | translate }}\n		</button>\n		<button ion-button menuToggle>\n			<ion-icon name="menu"></ion-icon>\n		</button>\n\n	</ion-buttons>\n\n	<img class="header-logo" *ngIf="show_header_logo" [src]="header_logo_url" />\n\n    <ion-title *ngIf="!show_header_logo">{{pagetitle | translate}}</ion-title>\n\n  </ion-navbar>\n</ion-header>\n\n<ion-content [ngClass]="customClasses">\n\n<DynamicComponent \n    [componentTemplateUrl]="templateUrl" \n    [componentModules]="extraModules"\n    [componentInputData]="inputData"></DynamicComponent>\n\n</ion-content>\n'/*ion-inline-end:"/Users/macintosh/Documents/devapp/PropertiGO/src/pages/custom-pages/custom-page.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Nav */],
@@ -531,7 +531,7 @@ CustomPage = __decorate([
 
 /***/ }),
 
-/***/ 383:
+/***/ 385:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -560,7 +560,7 @@ exports.DynamicComponentModule = DynamicComponentModule;
 
 /***/ }),
 
-/***/ 384:
+/***/ 386:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -590,7 +590,7 @@ exports.Utils = Utils;
 
 /***/ }),
 
-/***/ 385:
+/***/ 387:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -598,18 +598,18 @@ exports.Utils = Utils;
 var DynamicComponent_1 = __webpack_require__(346);
 exports.DynamicComponent = DynamicComponent_1.DynamicComponent;
 exports.DynamicComponentMetadata = DynamicComponent_1.DynamicComponentMetadata;
-var DynamicComponentModule_1 = __webpack_require__(383);
+var DynamicComponentModule_1 = __webpack_require__(385);
 exports.DynamicComponentModule = DynamicComponentModule_1.DynamicComponentModule;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 637:
+/***/ 639:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var Utils_1 = __webpack_require__(638);
+var Utils_1 = __webpack_require__(640);
 var MetadataFactory_1 = __webpack_require__(369);
 var MetadataHelper = (function () {
     function MetadataHelper() {
@@ -651,7 +651,7 @@ exports.MetadataHelper = MetadataHelper;
 
 /***/ }),
 
-/***/ 638:
+/***/ 640:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -681,12 +681,12 @@ exports.Utils = Utils;
 
 /***/ }),
 
-/***/ 639:
+/***/ 641:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var MetadataHelper_1 = __webpack_require__(637);
+var MetadataHelper_1 = __webpack_require__(639);
 exports.MetadataHelper = MetadataHelper_1.MetadataHelper;
 var MetadataFactory_1 = __webpack_require__(369);
 exports.PropertyAnnotationFactory = MetadataFactory_1.PropertyAnnotationFactory;
