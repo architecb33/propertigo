@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19">
+
+    
+  <!-- Spot Style - Default Point Spot Style -->
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/hotspot_animated_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="64"
+         frameheight="64"
+         stopspotsequence="false"
+         crop="0|0|64|64"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onover="onoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+         height="60"
+         width="60"
+         />
+
+
+  <action name="onoverIconDefaultPointSpotStyle">
+
+tween(alpha, 1);
+
+  </action>
+
+  <action name="onoutIconDefaultPointSpotStyle">
+
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
+
+</krpano>
