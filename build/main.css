@@ -29262,7 +29262,7 @@ p > img {
   .virtualtour {
     display: none;
   }
-  .virtualguide {
+  .virtualguide, .gridvirtual {
     display: block;
   }
 }
@@ -29271,7 +29271,7 @@ p > img {
   .virtualtour {
     display: block;
   }
-  .virtualguide {
+  .virtualguide, .gridvirtual {
     display: none;
   }
 }
