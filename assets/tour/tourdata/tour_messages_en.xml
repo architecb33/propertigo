@@ -52,6 +52,7 @@
   <data name="en_webvrbuttontooltip"><![CDATA[]]></data>
   <data name="en_togglebuttonfirsttooltip"><![CDATA[]]></data>
   <data name="en_togglebuttonsecondtooltip"><![CDATA[]]></data>
+  <data name="en_buttontooltip"><![CDATA[]]></data>
 
 
   <data name="en_vr_setup_hmd0"><![CDATA[SELECT YOUR HMD]]></data>

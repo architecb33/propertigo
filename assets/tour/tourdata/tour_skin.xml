@@ -36,100 +36,6 @@ tween(alpha, 1);
 
 
 
-<!-- ************************* -->
-<!-- 360Images Responsive Grid Plugin -->
-<!-- ************************* -->
-<include url="%FIRSTXML%/graphics/360imagesgrid/gridmenu.xml"/>
-
-
-<responsive_grid  
-
-	button="true"
-
-	padding_top="10"
-	padding_bottom="0"
-	width_margin="75"
-	
-	vcenter="false"
-	
-	grid_bgcolor="0xffffff"
-	grid_bgalpha="0.80000000000000004"
-	
-	display_title="false"
-	grid_title="GRID MENU"
-	grid_title_css="color:#ffffff;font-family:Raleway;font-size:35px;"
-
-	group="true"
-	current="false"
-	
-	cat_container_height="37"
-	cat_container_border="0,0,1,0 0xd2d1c6 1.00"
-	cat_container_title_css="color:#665d4a;font-family:Europa;font-size:25px;"
-	cat_container_title_align="center"
-	
-	cat_container_border_height="1"
-
-	cat_desc_css="color:#ffffff;font-family:Raleway;font-size:14px;text-align:left"
-	
-	display_cat_desc="false"
-	
-	thumb_padding="10"
-	thumb_scale="100"
-	thumb_border_bgborder="5 0xc6a56d 1.00"
-	
-	display_thumb_title="true"
-	
-	
-	thumb_title_align="bottom"
-	thumb_title_x="0"
-	thumb_title_y="5"
-	
-	thumb_title_css="color:#ffffee;font-family:Europa;font-size:18px;text-align:left;"
-	
-	background="false"
-	border="false"
-	thumb_title_textshadow="1" thumb_title_textshadowrange="4.0" thumb_title_textshadowangle="45" thumb_title_textshadowcolor="0x000000" thumb_title_textshadowalpha="0.80000000000000004"
-
-	thumb_title_padding="3 10"
-	
-	
-	
-	display_thumb_desc="false"
-	display_thumb_desc_css="color:#ffffff;font-family:Raleway;font-size:15px;text-align:center"
-	
-	thumb_desc_bg_color="0x000000"
-	thumb_desc_bg_alpha="0.59999999999999998"
-	
-	thumb_desc_padding="8 15"
-/>
-
-
-<!-- ********** -->
-<!-- Force Landscape on Mobile -->
-<!-- id : ForceLandscapeMobilePlugin -->
-<!-- ********** -->
-
-	<events name="mobileorientation_events" devices="mobile" keep="true" onresize="mobileorientation_portrait_mode_check();"/>
-
-	<action name="mobileorientation_portrait_mode_check" device="mobile">
-		div(aspect, stagewidth, stageheight);
-		if(aspect != lastaspect OR '%1' == 'true',
-			copy(lastaspect, aspect);
-			if(stagewidth GT stageheight,
-				tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 0.0);
-			,
-				tween(layer[mobileorientation_rotate_device_required].alpha, 1.0);
-				delayedcall(3.0, tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 1.0););
-			);
-		);
-	</action>	
-
-	<layer name="mobileorientation_rotate_device_required" keep="true" devices="mobile" 
-		url="%FIRSTXML%/graphics/rotate_device.png" width="80%" height="prop"
-		align="center" edge="center"
-		autoalpha="true" alpha="0.0"
-		enabled="false"
-		/>	
 <!-- ********** -->
 <!-- WebVR Button -->
 <!-- id : webvrbutton -->
@@ -139,16 +45,16 @@ tween(alpha, 1);
 		keep="true"
 		blocked="false"
 		url="%FIRSTXML%/graphics/webvrbutton/vrbutton.png" 
-		align="bottom"
-		x="52"
-		y="22"
-		zorder="3"
+		align="bottomright"
+		x="120"
+		y="15"
+		zorder="1"
 		visible="false"
 		onclick="js(accessWebVr());
 "
 
-		height="30"
-		width="30"
+		height="35"
+		width="35"
 		/>
 
 	<events name="webvrbuttonevents"
@@ -171,15 +77,15 @@ tween(alpha, 1);
   <layer name="togglebutton"
          keep="true"
          url="%FIRSTXML%/graphics/togglebutton/gyrobutton.png" 
-         align="bottom"
-         x="-52"
-         y="22"
-         zorder="4"
+         align="bottomright"
+         x="72"
+         y="15"
+         zorder="2"
          state="true"
          onclick="togglebuttonOnClick"
          onout=""
-         height="30"
-         width="30"
+         height="35"
+         width="35"
          visible="false"
          />
 
@@ -204,6 +110,34 @@ tween(alpha, 1);
     keep="true" />
   <action name="hidetogglebutton">set(layer[togglebutton].visible, false);</action>
   <action name="showtogglebutton">if(tour_displaycontrols,set(layer[togglebutton].visible, true);,hidetogglebutton(););</action>
+
+
+<!-- ********** -->
+<!-- menu button -->
+<!-- id : button -->
+<!-- ********** -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/openmenu.png" 
+         align="bottomright"
+         x="15"
+         y="15"
+         zorder="3"
+         visible="false"
+         onclick="buttonOnClick"
+         height="45"
+         width="45"
+         />
+  <action name="buttonOnClick">rg_show_thumbs_grid(true);
+
+  </action>
+
+  <events name="buttonevents" 
+    onTourStart="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">set(layer[button].visible, true);</action>
 
 
 <!-- ********* -->
@@ -339,25 +273,132 @@ tween(alpha, 1);
     getmessage(layer[title].html, get(scene[get(xml.scene)].titleid));
     escape(layer[title].html);
   </action>
-  <layer name="title" keep="true" zorder="6"
+  <layer name="title" keep="true" zorder="5"
          url="%FIRSTXML%/graphics/textfield.swf"
-         align="top" x="0" y="10" width="100%" autoheight="true"
+         align="bottomleft" x="20" y="15" width="100%" autoheight="true"
          background="false" capture="false" handcursor="false" selectable="false" enabled="false"
          borderwidth="0"
          alpha="1"
          visible="false"
-         css="text-align:center;
+         css="text-align:left;
               color:#ffffff;
               font-family:Europa;
-              font-weight:bold;
-              font-size:18px;"/>
+              font-size:20px;"/>
 
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
+<!-- ********** -->
+<!-- Loading Information -->
+<!-- id : loaderinfo -->
+<!-- ********** -->
+
+  <events name="loaderinfoevent" onxmlcomplete="loaderinfoupdate();" keep="true"/>
+
+  <action name="loaderinfoupdate">
+    if(scene[get(xml.scene)].video,
+      set(layer[loaderinfotextfield].visible, false);
+    ,
+      if (progress.progress == 1,
+        delayedcall(0.5, set(layer[loaderinfotextfield].visible, false); );
+      ,
+        set(layer[loaderinfotextfield].visible, true);
+      );
+      mul(progresstext, get(progress.progress),100);
+      roundval(progresstext);
+      txtadd(progresstext, get(progresstext), %);
+      set(layer[loaderinfotextfield].html, get(progresstext));
+      ifnot(progress.progress GE 1, delayedcall(0.01, loaderinfoupdate() ));
+    );
   </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
+
+  <layer name="loaderinfotextfield"
+         keep="true"
+         zorder="6"
+         url="%FIRSTXML%/graphics/textfield.swf"
+         align="center"
+         x="0"
+         y="0"
+         borderwidth="0"
+         background="false"
+         autoheight="true"
+         autowidth="auto"
+         capture="false"
+         handcursor="false"
+         selectable="false"
+         alpha="1"
+         visible="true"
+         css="
+         text-align:center;
+         color:#ffffff;
+         font-family:Europa;
+         font-size:16px;
+         "
+  />
+
+<!-- ************************* -->
+<!-- 360Images Responsive Grid Plugin -->
+<!-- ************************* -->
+<include url="%FIRSTXML%/graphics/360imagesgrid/gridmenu.xml"/>
+
+
+<responsive_grid  
+
+	button="false"
+
+	padding_top="10"
+	padding_bottom="0"
+	width_margin="65"
+	
+	vcenter="false"
+	
+	grid_bgcolor="0xffffff"
+	grid_bgalpha="0.90000762951094837"
+	
+	display_title="false"
+	grid_title="GRID MENU"
+	grid_title_css="color:#ffffff;font-family:Raleway;font-size:35px;"
+
+	group="true"
+	current="false"
+	
+	cat_container_height="35"
+	cat_container_border="0,0,0,0 0x665d4a 1.00"
+	cat_container_title_css="color:#665d4a;font-family:Europa;font-size:24px;"
+	cat_container_title_align="left"
+	
+	cat_container_border_height="0"
+
+	cat_desc_css="color:#ffffff;font-family:Raleway;font-size:14px;text-align:left"
+	
+	display_cat_desc="false"
+	
+	thumb_padding="5"
+	thumb_scale="75"
+	thumb_border_bgborder="5 0xc6a56d 1.00"
+	
+	display_thumb_title="true"
+	
+	
+	thumb_title_align="bottom"
+	thumb_title_x="0"
+	thumb_title_y="7"
+	
+	thumb_title_css="color:#ffffee;font-family:Europa;font-size:17px;text-align:left;"
+	
+	background="false"
+	border="false"
+	thumb_title_textshadow="1" thumb_title_textshadowrange="4.0" thumb_title_textshadowangle="45" thumb_title_textshadowcolor="0x000000" thumb_title_textshadowalpha="0.7000076295109483"
+
+	thumb_title_padding="6 10"
+	
+	
+	
+	display_thumb_desc="false"
+	display_thumb_desc_css="color:#ffffff;font-family:Raleway;font-size:15px;text-align:center"
+	
+	thumb_desc_bg_color="0x000000"
+	thumb_desc_bg_alpha="0.59999999999999998"
+	
+	thumb_desc_padding="8 15"
+/>
 
 
 	<!-- WebVR plugin for VR availability tests -->
@@ -387,4 +428,12 @@ tween(alpha, 1);
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
+
+
 </krpano>
