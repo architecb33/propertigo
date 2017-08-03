@@ -80,13 +80,13 @@
                  mainscene="pano10"
                  color="808080"
                  alpha="1"
-                 thumburl="%FIRSTXML%/_1br___bedroom_10/thumbnail.jpg"
+                 thumburl="%FIRSTXML%/1br___bedroom_10/thumbnail.jpg"
                  floorplanurl=""
                  titleid="panogroup12_title"
                  descriptionid=""/>
 
   <!-- Group Facilities : 3 panoramas -->
-  
+
 
 <!-- **** @PanoName="Grand Lobby" @PanoFile="/Users/macintosh/Library/Mobile Documents/com~apple~CloudDocs/projects/Properti GO/banks panorama big/facilities/Grand Lobby.jpg" **** -->
 <!-- **** Width="0px" Height="0px" **** -->
@@ -549,7 +549,7 @@
 
 
   <!-- Group 3 Bedroom Type : 5 panoramas -->
-  
+
 
 <!-- **** @PanoName="3BR - Hallway" @PanoFile="/Users/macintosh/Library/Mobile Documents/com~apple~CloudDocs/projects/Properti GO/banks panorama big/3 bedroom/3BR - Hallway.jpg" **** -->
 <!-- **** Width="0px" Height="0px" **** -->
@@ -768,7 +768,7 @@
 <scene name="pano17"
        heading="0"
        group="panogroup21"
-       thumburl="%FIRSTXML%/_3br___livingroom_17/thumbnail.jpg"
+       thumburl="%FIRSTXML%/3br___livingroom_17/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -798,33 +798,33 @@
           hlookat="0.000000"
           vlookat="0.000000"/>
 
-    <preview url="%FIRSTXML%/_3br___livingroom_17/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/3br___livingroom_17/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_3br___livingroom_17/html5/0.jpg"/>
-      <right url="_3br___livingroom_17/html5/1.jpg"/>
-      <back  url="_3br___livingroom_17/html5/2.jpg"/>
-      <left  url="_3br___livingroom_17/html5/3.jpg"/>
-      <up    url="_3br___livingroom_17/html5/4.jpg"/>
-      <down  url="_3br___livingroom_17/html5/5.jpg"/>
+      <front url="3br___livingroom_17/html5/0.jpg"/>
+      <right url="3br___livingroom_17/html5/1.jpg"/>
+      <back  url="3br___livingroom_17/html5/2.jpg"/>
+      <left  url="3br___livingroom_17/html5/3.jpg"/>
+      <up    url="3br___livingroom_17/html5/4.jpg"/>
+      <down  url="3br___livingroom_17/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_3br___livingroom_17/tablet/0.jpg"/>
-      <right url="_3br___livingroom_17/tablet/1.jpg"/>
-      <back  url="_3br___livingroom_17/tablet/2.jpg"/>
-      <left  url="_3br___livingroom_17/tablet/3.jpg"/>
-      <up    url="_3br___livingroom_17/tablet/4.jpg"/>
-      <down  url="_3br___livingroom_17/tablet/5.jpg"/>
+      <front url="3br___livingroom_17/tablet/0.jpg"/>
+      <right url="3br___livingroom_17/tablet/1.jpg"/>
+      <back  url="3br___livingroom_17/tablet/2.jpg"/>
+      <left  url="3br___livingroom_17/tablet/3.jpg"/>
+      <up    url="3br___livingroom_17/tablet/4.jpg"/>
+      <down  url="3br___livingroom_17/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_3br___livingroom_17/mobile/0.jpg"/>
-      <right url="_3br___livingroom_17/mobile/1.jpg"/>
-      <back  url="_3br___livingroom_17/mobile/2.jpg"/>
-      <left  url="_3br___livingroom_17/mobile/3.jpg"/>
-      <up    url="_3br___livingroom_17/mobile/4.jpg"/>
-      <down  url="_3br___livingroom_17/mobile/5.jpg"/>
+      <front url="3br___livingroom_17/mobile/0.jpg"/>
+      <right url="3br___livingroom_17/mobile/1.jpg"/>
+      <back  url="3br___livingroom_17/mobile/2.jpg"/>
+      <left  url="3br___livingroom_17/mobile/3.jpg"/>
+      <up    url="3br___livingroom_17/mobile/4.jpg"/>
+      <down  url="3br___livingroom_17/mobile/5.jpg"/>
     </image>
 
 
@@ -905,7 +905,7 @@
 <scene name="pano14"
        heading="0"
        group="panogroup21"
-       thumburl="%FIRSTXML%/_3br___bathroom_14/thumbnail.jpg"
+       thumburl="%FIRSTXML%/3br___bathroom_14/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -935,33 +935,33 @@
           hlookat="0.000000"
           vlookat="0.000000"/>
 
-    <preview url="%FIRSTXML%/_3br___bathroom_14/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/3br___bathroom_14/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_3br___bathroom_14/html5/0.jpg"/>
-      <right url="_3br___bathroom_14/html5/1.jpg"/>
-      <back  url="_3br___bathroom_14/html5/2.jpg"/>
-      <left  url="_3br___bathroom_14/html5/3.jpg"/>
-      <up    url="_3br___bathroom_14/html5/4.jpg"/>
-      <down  url="_3br___bathroom_14/html5/5.jpg"/>
+      <front url="3br___bathroom_14/html5/0.jpg"/>
+      <right url="3br___bathroom_14/html5/1.jpg"/>
+      <back  url="3br___bathroom_14/html5/2.jpg"/>
+      <left  url="3br___bathroom_14/html5/3.jpg"/>
+      <up    url="3br___bathroom_14/html5/4.jpg"/>
+      <down  url="3br___bathroom_14/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_3br___bathroom_14/tablet/0.jpg"/>
-      <right url="_3br___bathroom_14/tablet/1.jpg"/>
-      <back  url="_3br___bathroom_14/tablet/2.jpg"/>
-      <left  url="_3br___bathroom_14/tablet/3.jpg"/>
-      <up    url="_3br___bathroom_14/tablet/4.jpg"/>
-      <down  url="_3br___bathroom_14/tablet/5.jpg"/>
+      <front url="3br___bathroom_14/tablet/0.jpg"/>
+      <right url="3br___bathroom_14/tablet/1.jpg"/>
+      <back  url="3br___bathroom_14/tablet/2.jpg"/>
+      <left  url="3br___bathroom_14/tablet/3.jpg"/>
+      <up    url="3br___bathroom_14/tablet/4.jpg"/>
+      <down  url="3br___bathroom_14/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_3br___bathroom_14/mobile/0.jpg"/>
-      <right url="_3br___bathroom_14/mobile/1.jpg"/>
-      <back  url="_3br___bathroom_14/mobile/2.jpg"/>
-      <left  url="_3br___bathroom_14/mobile/3.jpg"/>
-      <up    url="_3br___bathroom_14/mobile/4.jpg"/>
-      <down  url="_3br___bathroom_14/mobile/5.jpg"/>
+      <front url="3br___bathroom_14/mobile/0.jpg"/>
+      <right url="3br___bathroom_14/mobile/1.jpg"/>
+      <back  url="3br___bathroom_14/mobile/2.jpg"/>
+      <left  url="3br___bathroom_14/mobile/3.jpg"/>
+      <up    url="3br___bathroom_14/mobile/4.jpg"/>
+      <down  url="3br___bathroom_14/mobile/5.jpg"/>
     </image>
 
 
@@ -1042,7 +1042,7 @@
 <scene name="pano15"
        heading="-120.0000000000001"
        group="panogroup21"
-       thumburl="%FIRSTXML%/_3br___bedroom_15/thumbnail.jpg"
+       thumburl="%FIRSTXML%/3br___bedroom_15/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -1072,33 +1072,33 @@
           hlookat="123.695000"
           vlookat="4.433500"/>
 
-    <preview url="%FIRSTXML%/_3br___bedroom_15/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/3br___bedroom_15/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_3br___bedroom_15/html5/0.jpg"/>
-      <right url="_3br___bedroom_15/html5/1.jpg"/>
-      <back  url="_3br___bedroom_15/html5/2.jpg"/>
-      <left  url="_3br___bedroom_15/html5/3.jpg"/>
-      <up    url="_3br___bedroom_15/html5/4.jpg"/>
-      <down  url="_3br___bedroom_15/html5/5.jpg"/>
+      <front url="3br___bedroom_15/html5/0.jpg"/>
+      <right url="3br___bedroom_15/html5/1.jpg"/>
+      <back  url="3br___bedroom_15/html5/2.jpg"/>
+      <left  url="3br___bedroom_15/html5/3.jpg"/>
+      <up    url="3br___bedroom_15/html5/4.jpg"/>
+      <down  url="3br___bedroom_15/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_3br___bedroom_15/tablet/0.jpg"/>
-      <right url="_3br___bedroom_15/tablet/1.jpg"/>
-      <back  url="_3br___bedroom_15/tablet/2.jpg"/>
-      <left  url="_3br___bedroom_15/tablet/3.jpg"/>
-      <up    url="_3br___bedroom_15/tablet/4.jpg"/>
-      <down  url="_3br___bedroom_15/tablet/5.jpg"/>
+      <front url="3br___bedroom_15/tablet/0.jpg"/>
+      <right url="3br___bedroom_15/tablet/1.jpg"/>
+      <back  url="3br___bedroom_15/tablet/2.jpg"/>
+      <left  url="3br___bedroom_15/tablet/3.jpg"/>
+      <up    url="3br___bedroom_15/tablet/4.jpg"/>
+      <down  url="3br___bedroom_15/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_3br___bedroom_15/mobile/0.jpg"/>
-      <right url="_3br___bedroom_15/mobile/1.jpg"/>
-      <back  url="_3br___bedroom_15/mobile/2.jpg"/>
-      <left  url="_3br___bedroom_15/mobile/3.jpg"/>
-      <up    url="_3br___bedroom_15/mobile/4.jpg"/>
-      <down  url="_3br___bedroom_15/mobile/5.jpg"/>
+      <front url="3br___bedroom_15/mobile/0.jpg"/>
+      <right url="3br___bedroom_15/mobile/1.jpg"/>
+      <back  url="3br___bedroom_15/mobile/2.jpg"/>
+      <left  url="3br___bedroom_15/mobile/3.jpg"/>
+      <up    url="3br___bedroom_15/mobile/4.jpg"/>
+      <down  url="3br___bedroom_15/mobile/5.jpg"/>
     </image>
 
 
@@ -1179,7 +1179,7 @@
 <scene name="pano18"
        heading="35.199999999999989"
        group="panogroup21"
-       thumburl="%FIRSTXML%/_3br___pantry_18/thumbnail.jpg"
+       thumburl="%FIRSTXML%/3br___pantry_18/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -1209,33 +1209,33 @@
           hlookat="-35.468000"
           vlookat="1.330050"/>
 
-    <preview url="%FIRSTXML%/_3br___pantry_18/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/3br___pantry_18/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_3br___pantry_18/html5/0.jpg"/>
-      <right url="_3br___pantry_18/html5/1.jpg"/>
-      <back  url="_3br___pantry_18/html5/2.jpg"/>
-      <left  url="_3br___pantry_18/html5/3.jpg"/>
-      <up    url="_3br___pantry_18/html5/4.jpg"/>
-      <down  url="_3br___pantry_18/html5/5.jpg"/>
+      <front url="3br___pantry_18/html5/0.jpg"/>
+      <right url="3br___pantry_18/html5/1.jpg"/>
+      <back  url="3br___pantry_18/html5/2.jpg"/>
+      <left  url="3br___pantry_18/html5/3.jpg"/>
+      <up    url="3br___pantry_18/html5/4.jpg"/>
+      <down  url="3br___pantry_18/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_3br___pantry_18/tablet/0.jpg"/>
-      <right url="_3br___pantry_18/tablet/1.jpg"/>
-      <back  url="_3br___pantry_18/tablet/2.jpg"/>
-      <left  url="_3br___pantry_18/tablet/3.jpg"/>
-      <up    url="_3br___pantry_18/tablet/4.jpg"/>
-      <down  url="_3br___pantry_18/tablet/5.jpg"/>
+      <front url="3br___pantry_18/tablet/0.jpg"/>
+      <right url="3br___pantry_18/tablet/1.jpg"/>
+      <back  url="3br___pantry_18/tablet/2.jpg"/>
+      <left  url="3br___pantry_18/tablet/3.jpg"/>
+      <up    url="3br___pantry_18/tablet/4.jpg"/>
+      <down  url="3br___pantry_18/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_3br___pantry_18/mobile/0.jpg"/>
-      <right url="_3br___pantry_18/mobile/1.jpg"/>
-      <back  url="_3br___pantry_18/mobile/2.jpg"/>
-      <left  url="_3br___pantry_18/mobile/3.jpg"/>
-      <up    url="_3br___pantry_18/mobile/4.jpg"/>
-      <down  url="_3br___pantry_18/mobile/5.jpg"/>
+      <front url="3br___pantry_18/mobile/0.jpg"/>
+      <right url="3br___pantry_18/mobile/1.jpg"/>
+      <back  url="3br___pantry_18/mobile/2.jpg"/>
+      <left  url="3br___pantry_18/mobile/3.jpg"/>
+      <up    url="3br___pantry_18/mobile/4.jpg"/>
+      <down  url="3br___pantry_18/mobile/5.jpg"/>
     </image>
 
 
@@ -1311,14 +1311,14 @@
 
 
   <!-- Group 1 Bedroom Type : 2 panoramas -->
-  
+
 
 <!-- **** @PanoName="1BR - Bedroom" @PanoFile="/Users/macintosh/Library/Mobile Documents/com~apple~CloudDocs/projects/Properti GO/banks panorama big/1 bedroom/1BR - Bedroom.jpg" **** -->
 <!-- **** Width="0px" Height="0px" **** -->
 <scene name="pano10"
        heading="50"
        group="panogroup12"
-       thumburl="%FIRSTXML%/_1br___bedroom_10/thumbnail.jpg"
+       thumburl="%FIRSTXML%/1br___bedroom_10/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -1348,33 +1348,33 @@
           hlookat="-56.305400"
           vlookat="7.093600"/>
 
-    <preview url="%FIRSTXML%/_1br___bedroom_10/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/1br___bedroom_10/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_1br___bedroom_10/html5/0.jpg"/>
-      <right url="_1br___bedroom_10/html5/1.jpg"/>
-      <back  url="_1br___bedroom_10/html5/2.jpg"/>
-      <left  url="_1br___bedroom_10/html5/3.jpg"/>
-      <up    url="_1br___bedroom_10/html5/4.jpg"/>
-      <down  url="_1br___bedroom_10/html5/5.jpg"/>
+      <front url="1br___bedroom_10/html5/0.jpg"/>
+      <right url="1br___bedroom_10/html5/1.jpg"/>
+      <back  url="1br___bedroom_10/html5/2.jpg"/>
+      <left  url="1br___bedroom_10/html5/3.jpg"/>
+      <up    url="1br___bedroom_10/html5/4.jpg"/>
+      <down  url="1br___bedroom_10/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_1br___bedroom_10/tablet/0.jpg"/>
-      <right url="_1br___bedroom_10/tablet/1.jpg"/>
-      <back  url="_1br___bedroom_10/tablet/2.jpg"/>
-      <left  url="_1br___bedroom_10/tablet/3.jpg"/>
-      <up    url="_1br___bedroom_10/tablet/4.jpg"/>
-      <down  url="_1br___bedroom_10/tablet/5.jpg"/>
+      <front url="1br___bedroom_10/tablet/0.jpg"/>
+      <right url="1br___bedroom_10/tablet/1.jpg"/>
+      <back  url="1br___bedroom_10/tablet/2.jpg"/>
+      <left  url="1br___bedroom_10/tablet/3.jpg"/>
+      <up    url="1br___bedroom_10/tablet/4.jpg"/>
+      <down  url="1br___bedroom_10/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_1br___bedroom_10/mobile/0.jpg"/>
-      <right url="_1br___bedroom_10/mobile/1.jpg"/>
-      <back  url="_1br___bedroom_10/mobile/2.jpg"/>
-      <left  url="_1br___bedroom_10/mobile/3.jpg"/>
-      <up    url="_1br___bedroom_10/mobile/4.jpg"/>
-      <down  url="_1br___bedroom_10/mobile/5.jpg"/>
+      <front url="1br___bedroom_10/mobile/0.jpg"/>
+      <right url="1br___bedroom_10/mobile/1.jpg"/>
+      <back  url="1br___bedroom_10/mobile/2.jpg"/>
+      <left  url="1br___bedroom_10/mobile/3.jpg"/>
+      <up    url="1br___bedroom_10/mobile/4.jpg"/>
+      <down  url="1br___bedroom_10/mobile/5.jpg"/>
     </image>
 
 
@@ -1455,7 +1455,7 @@
 <scene name="pano11"
        heading="94.199999999999307"
        group="panogroup12"
-       thumburl="%FIRSTXML%/_1br___dining_room____11/thumbnail.jpg"
+       thumburl="%FIRSTXML%/1br___dining_room____11/thumbnail.jpg"
        backgroundsound=""
        backgroundsoundloops="0"
        haspolygons="false"
@@ -1485,33 +1485,33 @@
           hlookat="-96.206900"
           vlookat="2.216750"/>
 
-    <preview url="%FIRSTXML%/_1br___dining_room____11/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
+    <preview url="%FIRSTXML%/1br___dining_room____11/preview.jpg" type="CUBESTRIP" striporder="FRBLUD" />
 
 
     <image type="CUBE" devices="desktop.or.html5">
-      <front url="_1br___dining_room____11/html5/0.jpg"/>
-      <right url="_1br___dining_room____11/html5/1.jpg"/>
-      <back  url="_1br___dining_room____11/html5/2.jpg"/>
-      <left  url="_1br___dining_room____11/html5/3.jpg"/>
-      <up    url="_1br___dining_room____11/html5/4.jpg"/>
-      <down  url="_1br___dining_room____11/html5/5.jpg"/>
+      <front url="1br___dining_room____11/html5/0.jpg"/>
+      <right url="1br___dining_room____11/html5/1.jpg"/>
+      <back  url="1br___dining_room____11/html5/2.jpg"/>
+      <left  url="1br___dining_room____11/html5/3.jpg"/>
+      <up    url="1br___dining_room____11/html5/4.jpg"/>
+      <down  url="1br___dining_room____11/html5/5.jpg"/>
     </image>
 
     <image type="CUBE" devices="tablet">
-      <front url="_1br___dining_room____11/tablet/0.jpg"/>
-      <right url="_1br___dining_room____11/tablet/1.jpg"/>
-      <back  url="_1br___dining_room____11/tablet/2.jpg"/>
-      <left  url="_1br___dining_room____11/tablet/3.jpg"/>
-      <up    url="_1br___dining_room____11/tablet/4.jpg"/>
-      <down  url="_1br___dining_room____11/tablet/5.jpg"/>
+      <front url="1br___dining_room____11/tablet/0.jpg"/>
+      <right url="1br___dining_room____11/tablet/1.jpg"/>
+      <back  url="1br___dining_room____11/tablet/2.jpg"/>
+      <left  url="1br___dining_room____11/tablet/3.jpg"/>
+      <up    url="1br___dining_room____11/tablet/4.jpg"/>
+      <down  url="1br___dining_room____11/tablet/5.jpg"/>
     </image>
     <image type="CUBE" devices="mobile">
-      <front url="_1br___dining_room____11/mobile/0.jpg"/>
-      <right url="_1br___dining_room____11/mobile/1.jpg"/>
-      <back  url="_1br___dining_room____11/mobile/2.jpg"/>
-      <left  url="_1br___dining_room____11/mobile/3.jpg"/>
-      <up    url="_1br___dining_room____11/mobile/4.jpg"/>
-      <down  url="_1br___dining_room____11/mobile/5.jpg"/>
+      <front url="1br___dining_room____11/mobile/0.jpg"/>
+      <right url="1br___dining_room____11/mobile/1.jpg"/>
+      <back  url="1br___dining_room____11/mobile/2.jpg"/>
+      <left  url="1br___dining_room____11/mobile/3.jpg"/>
+      <up    url="1br___dining_room____11/mobile/4.jpg"/>
+      <down  url="1br___dining_room____11/mobile/5.jpg"/>
     </image>
 
 
@@ -1591,4 +1591,3 @@
 
 
 </krpano>
-
