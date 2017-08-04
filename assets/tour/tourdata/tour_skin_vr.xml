@@ -36,6 +36,35 @@ tween(alpha, 1);
 
 
 
+  <!-- ********************************* -->
+  <!--        VR GRID MENU               -->
+  <!--        by 360images.fr            -->
+  <!-- ********************************* -->
+
+<include url="%FIRSTXML%/graphics/360imagesvr/vrmenu.xml"/>
+
+<vrmenu
+	angle="-45"
+	groups="true"
+	onlycat="false"
+	displayprevnext="false"
+	width="300"
+	height="150"
+	gpwidth="400"
+	gpheight="400"
+	rows="1"
+	group_rows="1"
+	spacing="10"
+	gpspacing="50"
+	timeout="1000"
+	seen="false"
+	from="-2000"
+	closevrmenu="true"
+	fademenu="true"
+	menualpha="100"
+/>
+
+
   <action name="enableGyroscope">
     changeGyroscopeState(true);
   </action>

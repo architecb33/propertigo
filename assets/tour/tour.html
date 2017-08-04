@@ -10,7 +10,7 @@
 		<meta name="medium" content="mult" />
 		<meta name="video_height" content="480"></meta>
 		<meta name="video_width" content="640"></meta>
-		<link rel="image_src" href="tourdata/thumbnail.jpg" />
+		<link rel="image_src" href="tourdata/thumbnail.png" />
 		<!-- <meta name="directory" content="PATH/"></meta> -->
 		<!-- <link rel="target_url" href="tour.html" /> -->
 		<meta name="generator" content="Panotour Pro V2.5.7 64bits" />
@@ -42,58 +42,7 @@
 				-o-user-select: none;
 				user-select: none;
 			}
-
-
-
-
-
-
-
-			/* FONT_FACE */
-
-			@font-face {
-			    font-family: 'europa';
-			    src: url('tourdata/europa-bold-webfont.woff2') format('woff2'),
-			         url('tourdata/europa-bold-webfont.woff') format('woff');
-			         url('tourdata/europa-bold.otf') format('otf');
-
-			    font-weight: 700;
-			    font-style: normal;
-			}
-
-			@font-face {
-			    font-family: 'europa';
-			    src: url('tourdata/europa-light-webfont.woff2') format('woff2'),
-			         url('tourdata/europa-light-webfont.woff') format('woff');
-			         url('tourdata/europa-light.otf') format('otf');
-			    font-weight: 300;
-			    font-style: normal;
-			}
-
-			@font-face {
-			    font-family: 'europa';
-			    src: url('tourdata/europa-regular-webfont.woff2') format('woff2'),
-			         url('tourdata/europa-regular-webfont.woff') format('woff');
-			         url('tourdata/europa-regular.otf') format('otf');
-			    font-weight: 400;
-			    font-style: normal;
-			}
-
-			* {
-				font-family: 'europa';
-			}
-
-
-
-
-
-
-
-
-
 		</style>
-
-
 				<!--[if !IE]><!-->
 		<script type="text/javascript" src="tourdata/lib/jquery-2.1.1.min.js"></script>
 		<!--<![endif]-->
@@ -136,7 +85,7 @@
 			jQuery( document ).ready(function() {
 				if (/(iphone|ipod|ipad|android|iemobile|webos|fennec|blackberry|kindle|series60|playbook|opera\smini|opera\smobi|opera\stablet|symbianos|palmsource|palmos|blazer|windows\sce|windows\sphone|wp7|bolt|doris|dorothy|gobrowser|iris|maemo|minimo|netfront|semc-browser|skyfire|teashark|teleca|uzardweb|avantgo|docomo|kddi|ddipocket|polaris|eudoraweb|opwv|plink|plucker|pie|xiino|benq|playbook|bb|cricket|dell|bb10|nintendo|up.browser|playstation|tear|mib|obigo|midp|mobile|tablet)/.test(navigator.userAgent.toLowerCase())) {
 					if(/iphone/.test(navigator.userAgent.toLowerCase()) && window.self === window.top){
-						jQuery('body').css('height', '100.18%');
+						jQuery('body').css('height', '100.18%'); 
 					}
 					// add event listener on resize event (for orientation change)
 					if (window.addEventListener) {
@@ -148,7 +97,7 @@
 					setTimeout(function(){readDeviceOrientation();},10);
 				}
 			});
-
+			
 			function accessWebVr(){
 				unloadPlayer();
 
@@ -172,7 +121,7 @@
 						,vars:{skipintro:true,norotation:true}
 					});
 				} else {
-
+					
 					var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
 					embedpano({
 						id:"krpanoSWFObject"
@@ -222,7 +171,7 @@
 				</div>
 
 
-
+				
 
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 

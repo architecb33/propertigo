@@ -350,7 +350,7 @@ tween(alpha, 1);
 	vcenter="false"
 	
 	grid_bgcolor="0xffffff"
-	grid_bgalpha="0.90000762951094837"
+	grid_bgalpha="0.90196078431372551"
 	
 	display_title="false"
 	grid_title="GRID MENU"
@@ -374,7 +374,7 @@ tween(alpha, 1);
 	thumb_scale="75"
 	thumb_border_bgborder="5 0xc6a56d 1.00"
 	
-	display_thumb_title="true"
+	display_thumb_title="false"
 	
 	
 	thumb_title_align="bottom"
@@ -399,6 +399,15 @@ tween(alpha, 1);
 	
 	thumb_desc_padding="8 15"
 />
+
+
+
+  <action name="enableGyroscope">
+    changeGyroscopeState(true);
+  </action>
+  <action name="disableGyroscope">
+    changeGyroscopeState(false);
+  </action>
 
 
 	<!-- WebVR plugin for VR availability tests -->
@@ -428,12 +437,4 @@ tween(alpha, 1);
 		set(tour_vrdevices, false);
 		events.dispatch(onvrunavailable);
 	</action>
-  <action name="enableGyroscope">
-    changeGyroscopeState(true);
-  </action>
-  <action name="disableGyroscope">
-    changeGyroscopeState(false);
-  </action>
-
-
 </krpano>
