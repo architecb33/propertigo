@@ -28372,10 +28372,6 @@ ion-col {
 
 .ion-page {
   transition: all 0.3s linear;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
 }
 
 .show-menu + ion-nav .ion-page {
@@ -28383,10 +28379,6 @@ ion-col {
   transform: scale(0.6) translate3d(330px, 0, 0);
   transition: all 0.3s linear;
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15), 0 20px 20px rgba(0, 0, 0, 0.1);
-  -webkit-backface-visibility: hidden;
-  -webkit-transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
   overflow: visible !important;
 }
 
@@ -29431,7 +29423,7 @@ page-login-modal .divpopup {
 }
 
 page-login-modal .button-md.activated {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 media-player vg-overlay-play {
