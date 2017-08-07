@@ -28371,14 +28371,14 @@ ion-col {
 }
 
 .ion-page {
-  transition: all 0.3s linear;
+  box-shadow: 0 45px 100px rgba(43, 23, 3, 0.3);
+  transition: all 0.2s linear;
 }
 
 .show-menu + ion-nav .ion-page {
   -webkit-transform: scale(0.6) translate3d(330px, 0, 0);
   transform: scale(0.6) translate3d(330px, 0, 0);
-  transition: all 0.3s linear;
-  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15), 0 20px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s linear;
   overflow: visible !important;
 }
 
@@ -28422,7 +28422,7 @@ ion-app.md {
 
 @media screen and (min-width: 325px) {
   .ios .sideheader {
-    margin-top: 20px !important;
+    margin-top: 10px !important;
   }
 }
 
@@ -29381,6 +29381,10 @@ ion-content iframe, ion-content custom-iframe {
   background: transparent;
 }
 
+page-login-modal {
+  /*login logo*/
+}
+
 page-login-modal .usernamewelcome {
   font-weight: 300 !important;
   font-size: 1.7rem !important;
@@ -29424,6 +29428,20 @@ page-login-modal .divpopup {
 
 page-login-modal .button-md.activated {
   background-color: transparent !important;
+}
+
+page-login-modal .loginheader {
+  background-image: url(../assets/images/logo.png) !important;
+  background-size: 150px auto !important;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center 25px;
+  z-index: 100;
+  left: 15vw;
+  right: 15vw;
+  top: 5px;
+  margin: auto;
+  position: absolute;
 }
 
 media-player vg-overlay-play {
